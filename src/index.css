@@ -399,11 +399,57 @@ h1 span {
 
 .journal__entry-date {
 	@apply uppercase text-2xl md:text-4xl font-black font-zentry;
-  }
+}
 
-  .journal__entry-title {
+.journal__entry-title {
 	@apply uppercase text-2xl md:text-4xl text-gray-800 font-zentry;
-  }
+}
 
 
 /* End Journal */
+
+
+/* Countdown */
+.countdown-title {
+	@apply uppercase text-2xl md:text-4xl font-black font-zentry;
+}
+
+.countdown-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.countdown-item {
+	color: #111;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    line-height: 30px;
+	margin: 10px;
+    padding-top: 10px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.countdown-item span {
+	color: #333;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.countdown-svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+}
+
+/* End Countdown */
+
