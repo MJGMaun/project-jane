@@ -6,7 +6,7 @@ import { TiLocationArrow } from "react-icons/ti";
 
 import Button from "./Button";
 
-const navItems = ["The Spark", "Events", "Tickets", "Journal", "Time Together", "Unlocks", "Send to Miks"];
+const navItems = ["The Spark", "Events", "Tickets", "Journal", "Time Together", "Unlocks"];
 
 const NavBar = () => {
   // State for toggling audio and visual indicator
@@ -29,12 +29,21 @@ const NavBar = () => {
 
   // Manage audio playback
   useEffect(() => {
-    if (isAudioPlaying) {
-      audioElementRef.current.play();
-    } else {
-      audioElementRef.current.pause();
-    }
+	const audio = audioElementRef.current;
+
+	if (isAudioPlaying) {
+	  if (audio) {
+		audio.volume = 0.1;
+		if (audio.currentTime === 0) {
+		  audio.currentTime = 4;
+		}
+		audio.play();
+	  }
+	} else {
+	  audio.pause();
+	}
   }, [isAudioPlaying]);
+
 
   useEffect(() => {
     if (currentScrollY === 0) {
@@ -102,7 +111,7 @@ const NavBar = () => {
               <audio
                 ref={audioElementRef}
                 className="hidden"
-                src="/audio/loop.mp3"
+                src="/audio/musika.mp3"
                 loop
               />
               {[1, 2, 3, 4].map((bar) => (
