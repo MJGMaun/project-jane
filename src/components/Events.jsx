@@ -205,7 +205,7 @@ const Events = () => (
       </div>
 
       <div className="flex flex-col items-center text-center">
-        <Button title="Want more?" containerClass="mt-10 cursor-pointer" />
+        <Button title="Want more? soon." containerClass="mt-10 cursor-pointer" />
       </div>
     </div>
   </section>
