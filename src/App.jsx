@@ -6,6 +6,8 @@ import Events from './components/Events.jsx'
 import Story from './components/Story.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
+import Tickets from './components/Tickets.jsx'
+import Journal from './components/Journal.jsx'
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
 		<Hero />
 		<About />
 		<Events />
+		<Tickets />
 		<Story />
+		<Journal />
 		<Contact />
 		<Footer />
 	</main>

@@ -393,3 +393,17 @@ h1 span {
     background: linear-gradient(to bottom, #808080 0%, #808080 26%, #ecedef 26%, #ecedef 100%);
 }
 /* End Tickets */
+
+
+/* Journal */
+
+.journal__entry-date {
+	@apply uppercase text-2xl md:text-4xl font-black font-zentry;
+  }
+
+  .journal__entry-title {
+	@apply uppercase text-2xl md:text-4xl text-gray-800 font-zentry;
+  }
+
+
+/* End Journal */
