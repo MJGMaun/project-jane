@@ -108,12 +108,6 @@ const FloatingImage = () => {
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
 				No matter the distance, time, or circumstance, our connection is inevitable. It's as if fate has already written our story, and no matter where we are, we'll always end up finding each other. And no matter what, I will always be here for you, Jane.
             </p>
-
-            <Button
-              id="realm-btn"
-              title="discover prologue"
-              containerClass="mt-5"
-            />
           </div>
         </div>
       </div>
