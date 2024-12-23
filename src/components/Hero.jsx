@@ -135,7 +135,7 @@ const Hero = () => {
             autoPlay
             loop
             muted
-            className="absolute left-0 top-0 size-full object-cover object-center"
+            className="absolute left-0 top-0 size-full object-cover object-center brightness-75"
             onLoadedData={handleVideoLoad}
           />
         </div>

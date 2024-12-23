@@ -40,7 +40,7 @@ const About = () => {
         />
 
         <div className="about-subtext">
-          <p>-</p>
+          <p>December 14, 2022</p>
           <p className="text-gray-500">
 			Love often comes unexpectedly, turning a simple 'hello' into something extraordinary.
           </p>
@@ -50,7 +50,7 @@ const About = () => {
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
           <img
-            src="img/about.webp"
+            src="img/first-hello.png"
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
           />
