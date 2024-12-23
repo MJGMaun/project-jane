@@ -22,7 +22,7 @@ export const Entry = ({
 
 const Journal = () => {
     return (
-        <section id="journal" className="pb-52">
+        <section id="journal" className="pb-36">
             <div className="w-screen text-black-50">
                 <div className="flex size-full flex-col items-center py-10">
                     <p className="font-general text-sm uppercase md:text-[10px]">
