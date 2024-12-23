@@ -12,7 +12,7 @@ const Footer = () => {
         	© Mikha 2024. All rights reserved.
         </p>
 
-		<p>Hope you liked it. It's unfinished since I started to make this like Dec 21, 2024. Will make this my on-going personal project. Para naman mas lalo ka mainlove sakin :P</p>
+		<p className="text-center text-sm font-light md:text-left">Hope you liked it. It's unfinished since I started to make this like Dec 21, 2024. Will make this my on-going personal project. Para naman mas lalo ka mainlove sakin :P</p>
 
         <div className="flex justify-center gap-4  md:justify-start">
           {socialLinks.map((link, index) => (
