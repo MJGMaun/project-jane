@@ -8,6 +8,8 @@ import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import Tickets from './components/Tickets.jsx'
 import Journal from './components/Journal.jsx'
+import TimeTogether from './components/TimeTogether.jsx'
+import Unlocks from './components/Unlocks.jsx'
 
 const App = () => {
   return (
@@ -19,7 +21,9 @@ const App = () => {
 		<Tickets />
 		<Story />
 		<Journal />
-		<Contact />
+		{/* <Contact /> */}
+		<Unlocks />
+		<TimeTogether />
 		<Footer />
 	</main>
   )
