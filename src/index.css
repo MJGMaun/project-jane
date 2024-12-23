@@ -283,10 +283,10 @@ body {
 .cardLeft {
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
-	width: 16em;
+	width: 14.6em;
 }
 .cardRight {
-	width: 6.5em;
+	width: 6.3em;
 	border-left: 0.18em dashed #fff;
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;

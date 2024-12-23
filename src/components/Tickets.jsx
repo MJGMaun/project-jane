@@ -110,7 +110,7 @@ const Tickets = () => {
                         <TicketTilt className="flex items-center justify-center">
                             <Ticket
                                 title={<>Errand</>}
-                                description="Chance to make an errand for me for a day!"
+                                description="Request an errand for me!"
                                 validity="Tomorrow"
                                 dateUsed="N/A"
                                 slot="1/2"
@@ -120,7 +120,7 @@ const Tickets = () => {
                         <TicketTilt className="flex items-center justify-center">
                             <Ticket
                                 title={<>Errand</>}
-                                description="Chance to make an errand for me for a day!"
+                                description="Request an errand for me!"
                                 validity="Tomorrow"
                                 dateUsed="N/A"
                                 slot="2/2"
