@@ -21,7 +21,7 @@ const TimeTogether = () => {
 					<div className="mt-11 grid w-full grid-cols-1 gap-7 md:grid-cols-1 place-items-center">
 						<Countdown title="Days since we finally made it official ❤︎" timeTillDate="01 17 2023, 12:00 am" timeFormat="MM DD YYYY, h:mm a" mode="countup" />
 						<Countdown title="Countdown to our 2nd anniversary 🫰" timeTillDate="01 17 2025, 12:00 am" timeFormat="MM DD YYYY, h:mm a" />
-						<Countdown title="Countdown to when you're going home to me 👅" timeTillDate="12 15 2025, 12:00 am" timeFormat="MM DD YYYY, h:mm a" />
+						<Countdown title="Countdown to when you're going home to me 👅" timeTillDate="12 20 2025, 12:00 am" timeFormat="MM DD YYYY, h:mm a" />
 					</div>
 
                 </div>

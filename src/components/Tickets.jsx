@@ -106,7 +106,7 @@ const Tickets = () => {
                         />
                     </div>
 
-                    <div className="mt-11 grid w-full grid-cols-1 gap-7 md:grid-cols-4 place-items-center">
+                    <div className="mt-11 grid w-full grid-cols-1 gap-7 md:grid-cols-2 place-items-center">
                         <TicketTilt className="flex items-center justify-center">
                             <Ticket
                                 title={<>Errand</>}

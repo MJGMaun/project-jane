@@ -154,12 +154,12 @@ const Hero = () => {
                This is my gift for you<br /> Hope you like it! :) <br /> Love, Mikha
             </p>
 
-            <Button
+            {/* <Button
               id="watch-trailer"
               title="Watch trailer"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
-            />
+            /> */}
           </div>
         </div>
       </div>
