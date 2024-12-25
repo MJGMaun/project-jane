@@ -13,7 +13,7 @@ const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
   const [hasClicked, setHasClicked] = useState(false);
 
-  const [loading, setLoading] = useState(false); // set to true if you want preloading
+  const [loading, setLoading] = useState(true); // set to true if you want preloading
   const [loadedVideos, setLoadedVideos] = useState(0);
 
   const totalVideos = 4;
