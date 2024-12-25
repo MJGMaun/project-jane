@@ -62,7 +62,6 @@ export const BentoCard = ({ src, title, description, isComingSoon, isUnlocked })
                 src={src}
                 loop
 				playsInline
-				preload="auto"
                 muted
                 autoPlay
                 className="absolute left-0 top-0 size-full object-cover object-center brightness-75"
@@ -202,7 +201,6 @@ const Unlocks = () => (
                         loop
                         muted
 						playsInline
-						preload="auto"
                         autoPlay
                         className="size-full object-cover object-center"
                     />
