@@ -67,7 +67,6 @@ export const BentoCard = ({ src, title, description, detail }) => {
         loop
         muted
 		playsInline
-		preload="auto"
         autoPlay
         className="absolute left-0 top-0 size-full object-cover object-center brightness-75"
       />
