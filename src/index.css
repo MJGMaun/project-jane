@@ -411,7 +411,7 @@ h1 span {
 
 /* Countdown */
 .countdown-title {
-	@apply uppercase text-2xl md:text-4xl font-black font-zentry;
+	@apply uppercase text-2xl md:text-3xl font-black text-center;
 }
 
 .countdown-wrapper {
